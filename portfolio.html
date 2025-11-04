@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Poppins, sans-serif;
+      background: #0d1117;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .project-card {
+      background: #161b22;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      width: 320px;
+      text-align: center;
+      padding: 20px;
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 20px rgba(0, 255, 150, 0.3);
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .project-card h3 {
+      margin: 15px 0 10px;
+      color: #00ff99;
+    }
+
+    .project-card p {
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .links {
+      margin-top: 15px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #fff;
+      background: #00ff99;
+      padding: 8px 14px;
+      border-radius: 8px;
+      margin: 0 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      background: #00cc77;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="project-card">
+    <img src="https://via.placeholder.com/300x180" alt="Project Image">
+    <h3>My To-Do App</h3>
+    <p>A simple and clean task manager built with HTML, CSS, and JavaScript.</p>
+    <div class="links">
+      <a href="https://github.com/umid/todo-app" target="_blank">View Code</a>
+      <a href="https://umid.github.io/todo-app" target="_blank">Live Demo</a>
+    </div>
+  </div>
+
+</body>
+</html>
